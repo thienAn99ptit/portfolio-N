@@ -4,7 +4,7 @@ if(empty($_POST['name']) || empty($_POST['subject']) || empty($_POST['message'])
   exit();
 }
 
-$name = strip_tags(htmlspecialchars($_POST['name']));
+$name = strip_tags(htmlspecialchars($_POST['name33']));
 $email = strip_tags(htmlspecialchars($_POST['email']));
 $m_subject = strip_tags(htmlspecialchars($_POST['subject']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
